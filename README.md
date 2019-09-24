@@ -1,5 +1,29 @@
 # AI-Sudoku-Solver
 
+----------------------------------------------------------
+-- This is the README File for my evolutionary algorithm--
+----------------------------------------------------------
+
+This algorithm uses evolutionary logic to create an algorithm to solve a number Sudoku puzzle.
+This is done by filling in the puzzle with a random permutation of digits from 1 to 9 and then
+analyzing these generated puzzles(population) with a fitness function, then sorting out the population
+according ranked by best fitness.
+
+---------------------------------------------------------------------------------------------------------
+How to Run:
+
+Open a command prompt and go to the current directory and type in "coursework.py" in the command line.
+
+The program will run and display the board before it has been solved and after with the fitness and population
+specified during each run.
+
+**
+To add a puzzle you must create a list of lists that represent the puzzles rows and then insert the fixed
+values in their positions and fill the rest of the puzzle with zeros which represent the missing numbers.
+
+Then add that puzzle to the evolve function to be run. 
+**
+
 ### Solution Space 
 The Solution Space is all possible combinations of Sudoku grids (partially solved and complete)
 
